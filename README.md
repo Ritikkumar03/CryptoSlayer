@@ -1,4 +1,4 @@
-CryptoForecast Trading Bot via Kraken API
+CryptoSlayer: A Trading Bot via Kraken API
 
 ## Overview
 
