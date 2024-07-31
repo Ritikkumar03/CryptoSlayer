@@ -1,20 +1,18 @@
 import questionary
 import fire
 import Source.Bot as bot
-
 from Source.Kraken import Kraken
 from os import listdir
 from os.path import isfile
-
 
 def main():   
 
     kraken = Kraken()
 
-    print("\nWelcome to the Crypto Algorithmic Trading Bot!"
+    print("\nWelcome to the CryptoSlayer Trading Bot!"
         "\nThis bot only works with the Kraken Exchange."
         "\n\nDISCALIMER:"
-        "\nThis software is for educational purposes only!"
+        "\nThis software is made as personal Project."
         "\nDo not risk more money than you can afford to lose!"
         "\nThere is no guarantee that this software will make a profit."
         "\nAlways do your own research and due diligence.\n")
@@ -32,7 +30,6 @@ def main():
             break
         
 
-        # find all of the strategy classes under the User_Strategies folder
         strategy_folder = "./User_Strategies/"
 
         # add all of the strategy classes to the list with the ".py" extension removed
