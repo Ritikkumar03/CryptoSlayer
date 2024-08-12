@@ -24,7 +24,7 @@ class dmac_strategy(BaseStrategy):
             Create the indicators for the strategy
         """
 
-        # SMA windows
+        # SMA 
         fast = int(questionary.text("Enter Fast SMA Length:", default = "10").ask())
         slow = int(questionary.text("Enter Slow SMA Length:", default = "50").ask())
 
